@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import viteLogo from '/vite.svg'
 import './styles/App.css'
 import Header from './components/header'
+import Bio from './components/bio'
 
 function App() {
 
@@ -9,8 +9,8 @@ function App() {
     <div className="bg-background min-h-screen w-full flex flex-col ">
 
       <Header/>
-      <main className='bg-background flex-1 w-full flex flex-col'>
-        <h1>WELCOME</h1>
+      <main className='bg-background flex-1 w-full flex flex-col pt-7'>
+        <Bio/>
       </main>
     </div>
   )
